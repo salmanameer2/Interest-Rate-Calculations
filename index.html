@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // Simple Interest Calculator
+
+// Get input from the user
+let principal = parseFloat(prompt("Enter the principal amount:"));
+let rate = parseFloat(prompt("Enter the annual interest rate (in %):"));
+let time = parseFloat(prompt("Enter the time period (in years):"));
+
+// Calculate simple interest
+let simpleInterest = (principal * rate * time) / 100;
+
+// Display the result
+alert("The Simple Interest is: " + simpleInterest.toFixed(2));
+
+    </script>
+</body>
+</html>
